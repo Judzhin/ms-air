@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.6">
+    <id>com.msbios.HelloWorld</id>
+    <versionNumber>0.1</versionNumber>
+    <filename>Test application Hello World</filename>
+    <initialWindow>
+        <content>main.html</content>
+        <visible>true</visible>
+        <width>400</width>
+        <height>200</height>
+    </initialWindow>
+    <installFolder>AIR/HelloWorld</installFolder>
+    <programMenuFolder>AIR/HelloWorld</programMenuFolder>
+</application>

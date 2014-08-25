@@ -1,0 +1,11 @@
+Path:
+C:\SDK\bin\adl.exe
+
+PreView:
+adl.exe configuration.xml
+
+Generate certificate:
+adt.bat -certificate -cn SelfSigned 1024-RSA certificate.pfx samplepassword
+
+Generate Installer:
+adt.bat -package -storetype pkcs12 -keystore certificate.pfx installer.air configuration.xml main.html

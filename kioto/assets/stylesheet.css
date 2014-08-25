@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.preloaders {
+    background-image: url(preloaders.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
